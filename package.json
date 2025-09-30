@@ -1,0 +1,32 @@
+{
+  "name": "skeddy-telegram-bot",
+  "version": "1.0.0",
+  "description": "A professional Telegram bot for setting and managing personal reminders with natural language processing",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "reminder",
+    "scheduler",
+    "notifications"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "chrono-node": "^2.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
